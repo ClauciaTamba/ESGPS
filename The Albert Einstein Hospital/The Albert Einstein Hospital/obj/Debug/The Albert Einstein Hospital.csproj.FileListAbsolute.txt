@@ -1,0 +1,14 @@
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\bin\Debug\The Albert Einstein Hospital.exe.config
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\bin\Debug\The Albert Einstein Hospital.exe
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\bin\Debug\The Albert Einstein Hospital.pdb
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\obj\Debug\The Albert Einstein Hospital.csprojResolveAssemblyReference.cache
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\obj\Debug\The_Albert_Einstein_Hospital.FormLogin.resources
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\obj\Debug\The_Albert_Einstein_Hospital.FormPesquisarPaciente.resources
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\obj\Debug\The_Albert_Einstein_Hospital.FormRegistarPaciente.resources
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\obj\Debug\The_Albert_Einstein_Hospital.FormRegistarutilizador.resources
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\obj\Debug\The_Albert_Einstein_Hospital.Properties.Resources.resources
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\obj\Debug\The Albert Einstein Hospital.csproj.GenerateResource.Cache
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\obj\Debug\The Albert Einstein Hospital.exe
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\obj\Debug\The Albert Einstein Hospital.pdb
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\bin\Debug\EntityFramework.dll
+c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\bin\Debug\EntityFramework.xml
