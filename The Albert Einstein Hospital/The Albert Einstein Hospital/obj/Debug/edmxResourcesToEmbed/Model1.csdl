@@ -28,6 +28,6 @@
     <Property Name="dataNascimento" Type="DateTime" Nullable="false" />
     <Property Name="sexo" Type="String" Nullable="false" />
     <Property Name="codigoPostal" Type="String" Nullable="false" />
-    <Property Name="tipoUtilizador" Type="String" Nullable="false" />
+    <Property Name="medicacao" Type="String" Nullable="false" />
   </EntityType>
 </Schema>

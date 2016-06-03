@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 05/31/2016 18:20:13
--- Generated from EDMX file: c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\Model1.edmx
+-- Date Created: 06/03/2016 11:30:01
+-- Generated from EDMX file: C:\Users\Utilizador\Documents\Visual Studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\Model1.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -24,6 +24,9 @@ GO
 
 IF OBJECT_ID(N'[dbo].[UtilizadorSet]', 'U') IS NOT NULL
     DROP TABLE [dbo].[UtilizadorSet];
+GO
+IF OBJECT_ID(N'[dbo].[PacienteSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[PacienteSet];
 GO
 
 -- --------------------------------------------------
@@ -52,7 +55,7 @@ CREATE TABLE [dbo].[PacienteSet] (
     [dataNascimento] datetime  NOT NULL,
     [sexo] nvarchar(max)  NOT NULL,
     [codigoPostal] nvarchar(max)  NOT NULL,
-    [tipoUtilizador] nvarchar(max)  NOT NULL
+    [medicacao] nvarchar(max)  NOT NULL
 );
 GO
 

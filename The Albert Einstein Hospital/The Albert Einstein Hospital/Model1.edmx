@@ -33,7 +33,7 @@
     <Property Name="dataNascimento" Type="datetime" Nullable="false" />
     <Property Name="sexo" Type="nvarchar(max)" Nullable="false" />
     <Property Name="codigoPostal" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="tipoUtilizador" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="medicacao" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
 </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -67,7 +67,7 @@
           <Property Name="dataNascimento" Type="DateTime" Nullable="false" />
           <Property Name="sexo" Type="String" Nullable="false" />
           <Property Name="codigoPostal" Type="String" Nullable="false" />
-          <Property Name="tipoUtilizador" Type="String" Nullable="false" />
+          <Property Name="medicacao" Type="String" Nullable="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -99,7 +99,7 @@
           <ScalarProperty Name="dataNascimento" ColumnName="dataNascimento" />
           <ScalarProperty Name="sexo" ColumnName="sexo" />
           <ScalarProperty Name="codigoPostal" ColumnName="codigoPostal" />
-          <ScalarProperty Name="tipoUtilizador" ColumnName="tipoUtilizador" />
+          <ScalarProperty Name="medicacao" ColumnName="medicacao" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

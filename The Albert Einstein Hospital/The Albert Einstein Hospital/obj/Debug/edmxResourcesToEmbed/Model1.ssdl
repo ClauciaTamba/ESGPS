@@ -28,6 +28,6 @@
     <Property Name="dataNascimento" Type="datetime" Nullable="false" />
     <Property Name="sexo" Type="nvarchar(max)" Nullable="false" />
     <Property Name="codigoPostal" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="tipoUtilizador" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="medicacao" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
 </Schema>
