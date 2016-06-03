@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UtilizadorSet" EntityType="Model1.Utilizador" />
+    <EntitySet Name="PacienteSet" EntityType="Model1.Paciente" />
+  </EntityContainer>
+  <EntityType Name="Utilizador">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="nome" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="morada" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="dataNascimento" Type="DateTime" Precision="3" />
+    <Property Name="sexo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="codigoPostal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tipoUtilizador" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="username" Type="String" Nullable="false" />
+    <Property Name="password" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Paciente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="String" Nullable="false" />
+    <Property Name="morada" Type="String" Nullable="false" />
+    <Property Name="dataNascimento" Type="DateTime" Nullable="false" />
+    <Property Name="sexo" Type="String" Nullable="false" />
+    <Property Name="codigoPostal" Type="String" Nullable="false" />
+    <Property Name="tipoUtilizador" Type="String" Nullable="false" />
+  </EntityType>
+</Schema>
