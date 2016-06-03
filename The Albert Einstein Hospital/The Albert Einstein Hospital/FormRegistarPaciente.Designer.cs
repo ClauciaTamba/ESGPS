@@ -98,7 +98,7 @@
             // labelMedicacao
             // 
             this.labelMedicacao.AutoSize = true;
-            this.labelMedicacao.Location = new System.Drawing.Point(68, 195);
+            this.labelMedicacao.Location = new System.Drawing.Point(68, 199);
             this.labelMedicacao.Name = "labelMedicacao";
             this.labelMedicacao.Size = new System.Drawing.Size(60, 13);
             this.labelMedicacao.TabIndex = 5;
@@ -133,7 +133,7 @@
             // 
             // textBoxMedicacao
             // 
-            this.textBoxMedicacao.Location = new System.Drawing.Point(184, 195);
+            this.textBoxMedicacao.Location = new System.Drawing.Point(149, 192);
             this.textBoxMedicacao.Name = "textBoxMedicacao";
             this.textBoxMedicacao.Size = new System.Drawing.Size(100, 20);
             this.textBoxMedicacao.TabIndex = 10;
@@ -168,6 +168,7 @@
             this.buttonCarregarExames.TabIndex = 13;
             this.buttonCarregarExames.Text = "Carregar Exames";
             this.buttonCarregarExames.UseVisualStyleBackColor = true;
+            this.buttonCarregarExames.Click += new System.EventHandler(this.buttonCarregarExames_Click);
             // 
             // buttonGuardar
             // 

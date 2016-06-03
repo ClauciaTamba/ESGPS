@@ -25,7 +25,7 @@
           <ScalarProperty Name="dataNascimento" ColumnName="dataNascimento" />
           <ScalarProperty Name="sexo" ColumnName="sexo" />
           <ScalarProperty Name="codigoPostal" ColumnName="codigoPostal" />
-          <ScalarProperty Name="tipoUtilizador" ColumnName="tipoUtilizador" />
+          <ScalarProperty Name="medicacao" ColumnName="medicacao" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

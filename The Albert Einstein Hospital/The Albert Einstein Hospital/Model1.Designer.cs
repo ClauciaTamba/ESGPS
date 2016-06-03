@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'c:\users\utilizador\documents\visual studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\Model1.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Utilizador\Documents\Visual Studio 2015\Projects\The Albert Einstein Hospital\The Albert Einstein Hospital\Model1.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

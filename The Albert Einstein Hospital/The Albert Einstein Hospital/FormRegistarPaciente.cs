@@ -23,8 +23,9 @@ namespace The_Albert_Einstein_Hospital
            
             string morada = textBoxmorada.Text;
             string nome = textBoxnome.Text;
-            DateTime dataNascimento = monthCalendar1.SelectionStart;
             string medicacao = textBoxMedicacao.Text;
+            DateTime dataNascimento = monthCalendar1.SelectionStart;
+            
             string codigoPostal = textBoxcodigoPostal.Text;
             string sexo = "";
             if (radioButtonSexoM.Checked)
@@ -36,22 +37,30 @@ namespace The_Albert_Einstein_Hospital
                 sexo = radioButtonSexoF.Text;
             }
            
-            Utilizador utilizador = new Utilizador();
+            Paciente utilizador = new Paciente();
            
             utilizador.morada = morada;
             utilizador.nome = nome;
             utilizador.dataNascimento = dataNascimento;
             utilizador.sexo = sexo;
-          
-            List<Utilizador> lista = context.UtilizadorSet.ToList();
+            utilizador.medicacao = medicacao;
+            utilizador.codigoPostal = codigoPostal;
+            List<Paciente> lista = context.PacienteSet.ToList();
             utilizador.Id = lista.Count + 1;
-            context.UtilizadorSet.Add(utilizador);
+            context.PacienteSet.Add(utilizador);
             context.SaveChanges();
-            MessageBox.Show("Utilizador criado!");
+            MessageBox.Show("paciente criado!");
             
             textBoxmorada.Text = "";
             textBoxnome.Text = "";
             textBoxcodigoPostal.Text = "";
+            textBoxMedicacao.Text = "";
+         
+           
+        }
+
+        private void buttonCarregarExames_Click(object sender, EventArgs e)
+        {
 
         }
     }

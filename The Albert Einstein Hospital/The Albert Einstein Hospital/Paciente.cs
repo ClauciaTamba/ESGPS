@@ -20,6 +20,6 @@ namespace The_Albert_Einstein_Hospital
         public System.DateTime dataNascimento { get; set; }
         public string sexo { get; set; }
         public string codigoPostal { get; set; }
-        public string tipoUtilizador { get; set; }
+        public string medicacao { get; set; }
     }
 }
